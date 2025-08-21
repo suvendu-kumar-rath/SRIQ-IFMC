@@ -40,6 +40,18 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-image {
+    height: 75px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-text {
     font-size: 1.8rem;
     font-weight: bold;
     color: #1e3a8a;
